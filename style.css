@@ -264,3 +264,42 @@ section h2 {
     }
     /* etc... */
 }
+
+/* In style.css, add this to the end */
+
+/* --- Enhanced Link Styles --- */
+
+/* Make all links a consistent, clear color and remove the default underline */
+a {
+    color: #0056b3; /* A standard, professional blue for links */
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Add an underline and slightly brighten the link on hover for clear feedback */
+a:hover {
+    color: #007bff; /* A slightly brighter blue */
+    text-decoration: underline;
+}
+
+/* Style the icons to match the text color */
+.header i, .certification-item i {
+    color: #555; /* A neutral icon color */
+    font-size: 0.9em; /* Make icons slightly smaller than the text */
+}
+
+/* Make the icons in links match the link color */
+a i {
+    color: #0056b3;
+}
+
+/* Make icons also brighten on hover */
+a:hover i {
+    color: #007bff;
+}
+
+/* Make the external link icon in certifications more subtle */
+.certification-item h3 i {
+    font-size: 0.8em;
+    opacity: 0.7;
+}
