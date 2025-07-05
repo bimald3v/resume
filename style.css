@@ -1,0 +1,195 @@
+/* General Body Styles */
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #2b2b2b; /* primary color */
+    margin: 0;
+    padding: 0;
+    font-size: 11pt;
+}
+
+.resume-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6A6A6A; /* headings color */
+}
+
+.header h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300; /* Light weight for the name */
+    font-size: 36pt;
+    margin: 0;
+    color: #2b2b2b; /* primary color */
+}
+
+.header p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    color: #6A6A6A; /* headings color */
+    margin-top: 5px;
+}
+
+.header a {
+    color: #6A6A6A; /* headings color */
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main Content Layout */
+.main-content {
+    display: flex;
+}
+
+.left-column {
+    width: 33%;
+    padding-right: 20px;
+}
+
+.vertical-rule {
+    width: 1px;
+    background-color: #6A6A6A; /* headings color */
+    margin: 0 15px;
+}
+
+.right-column {
+    width: 67%;
+    padding-left: 20px;
+}
+
+/* General Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16pt;
+    color: #6A6A6A; /* headings color */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    font-weight: 400; /* Regular weight */
+}
+
+/* Left Column Specifics */
+.skills-section h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #333333; /* subheadings color */
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 700; /* Bold */
+}
+
+.skills-section p {
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+}
+
+.certifications-section .certification-item,
+.education-section .education-item {
+    margin-bottom: 15px;
+}
+
+.certifications-section h3,
+.education-section h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    color: #333333; /* subheadings color */
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 0 2px 0;
+}
+.certifications-section h3 a {
+    color: #333333;
+    text-decoration: none;
+}
+.certifications-section h3 a:hover {
+    text-decoration: underline;
+}
+
+.certifications-section p,
+.education-section p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    color: #6A6A6A; /* headings color */
+}
+
+.education-section .degree {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 11pt;
+    color: #333333; /* subheadings color */
+    text-transform: uppercase;
+    margin: 2px 0;
+}
+
+/* Right Column Specifics (Experience) */
+.experience-section .job {
+    margin-bottom: 25px;
+}
+
+.experience-section .company {
+    font-family: 'Lato', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+.experience-section .job-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 11pt;
+    color: #333333;
+}
+.job-title .title {
+    font-weight: 600; /* Medium weight */
+}
+
+.job-title .date {
+    color: #6A6A6A; /* headings color */
+    font-weight: 400; /* Regular weight */
+    font-size: 10pt;
+}
+
+.experience-section ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.experience-section ul li {
+    margin-bottom: 8px;
+}
+
+.experience-section ul ul {
+    list-style-type: circle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.experience-section ul ul li {
+    margin-bottom: 5px;
+}
