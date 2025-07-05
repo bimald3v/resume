@@ -197,3 +197,70 @@ section h2 {
 .experience-section ul ul li {
     margin-bottom: 5px;
 }
+
+/* In style.css, add this at the end of the file */
+
+/* =================================== */
+/* RESPONSIVE DESIGN         */
+/* =================================== */
+
+@media (max-width: 768px) {
+    /* Change to a single column layout */
+    .main-content {
+        flex-direction: column;
+    }
+
+    /* Make both columns take up the full width */
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 0;
+    }
+    
+    /* Remove the vertical line on mobile */
+    .vertical-rule {
+        display: none;
+    }
+
+    /* Remove the border that was next to the vertical line */
+    .right-column {
+        border-left: none;
+        padding-left: 0;
+        margin-top: 20px; /* Add some space between the two columns */
+    }
+
+    /* Adjust padding and font sizes for smaller screens */
+    .resume-container {
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 28pt;
+    }
+
+    .header p {
+        font-size: 10pt;
+    }
+}
+
+/* In style.css, at the end of the file */
+
+/* This rule will now apply to any screen 1024px wide or smaller */
+@media (max-width: 1024px) {
+    /* All the single-column styles are in here */
+    .main-content {
+        flex-direction: column;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        padding: 0;
+    }
+    
+    .vertical-rule {
+        display: none;
+    }
+    /* etc... */
+}
