@@ -51,6 +51,15 @@ body {
     text-decoration: underline;
 }
 
+.header .summary {
+    font-family: 'Raleway', sans-serif;
+    font-size: 11pt;
+    color: #6A6A6A;
+    margin-top: 10px;
+    font-style: italic;
+    line-height: 1.4;
+}
+
 
 /* Main Content Layout */
 .main-content {
@@ -106,11 +115,13 @@ section h2 {
 }
 
 .certifications-section .certification-item,
+.research-section .research-item,
 .education-section .education-item {
     margin-bottom: 15px;
 }
 
 .certifications-section h3,
+.research-section h3,
 .education-section h3 {
     font-family: 'Lato', sans-serif;
     font-size: 12pt;
@@ -128,6 +139,7 @@ section h2 {
 }
 
 .certifications-section p,
+.research-section p,
 .education-section p {
     margin: 0;
     font-family: 'Raleway', sans-serif;
